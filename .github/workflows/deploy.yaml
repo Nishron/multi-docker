@@ -32,7 +32,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: multi-docker
           environment_name: Multi-docker-env
-          exisiting_bucket_name: elasticbeanstalk-us-east-1-039612885335
+          existing_bucket_name: elasticbeanstalk-us-east-1-039612885335
           region: us-east-1
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
